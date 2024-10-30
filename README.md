@@ -244,7 +244,7 @@ Files in a repository go through three stages before being under version control
 # Session 26 : Git blame
 >> git blame <filename> 
 >> git blame <filename> -L 1,10 # line 1 to 10
->> git blame head <filename>
+>> git blame HEAD <filename>
 >> git blame <commID> <filename>  
 >> git blame <branchName> <filename>
 
