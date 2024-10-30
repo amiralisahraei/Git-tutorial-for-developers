@@ -150,6 +150,7 @@ Files in a repository go through three stages before being under version control
 >> git diff --staged filename #show all changes that were staged in a specific file 
 >> git diff HEAD #show all changes that were not commited, whether staged or not
 >> git diff #show all changes that were not staged 
+>> git diff branch1..branch2  #show the differences between branch1 and branch2
 
 # Session 15 : Time travel (git checkout, git restore)
 >> git checkout 
