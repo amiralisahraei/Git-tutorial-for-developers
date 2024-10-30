@@ -170,6 +170,16 @@ Files in a repository go through three stages before being under version control
 # Session 17 : Git revert
 >> git revert <commitID>
 
+# Compare Reset and Revert
+
+| Feature                      | `git reset`                          | `git revert`                          |
+|------------------------------|--------------------------------------|---------------------------------------|
+| **Purpose**                  | Move HEAD and modify history         | Create a new commit that undoes changes |
+| **History Modification**     | Yes, it rewrites history             | No, it preserves history              |
+| **Data Loss Potential**      | Yes, especially with `--hard`       | No, it preserves previous commits      |
+| **Use Case**                 | Undo commits, unstage changes        | Safely undo changes in shared repositories |
+| **Safe for Collaboration**   | Not safe, can disrupt others' work   | Safe, maintains history for all users |
+
 # Session 18 : Git branching
 >> git branch    # list of all local branchs
 >> git branch -r # list of all remote branchs
