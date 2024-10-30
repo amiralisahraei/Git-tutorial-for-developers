@@ -119,6 +119,9 @@ Files in a repository go through three stages before being under version control
 >> git commit --amend # amend commit
 >> git commit --amend --no-edit 
 
+# Git Remove file
+>> git rm filename
+
 # Session 10 : Git history
 >> git log # log of commits with date, descriptions and author Name
 >> git log --oneline # summary of git log
