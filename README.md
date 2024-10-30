@@ -236,6 +236,7 @@ Files in a repository go through three stages before being under version control
 >> git show v1.0.0
 >> git checkout -b branch_name commID # checkout in commID and create new branch
 >> git checkout -b branch_name tag_name # checkout in tag_version and create new branch
+>> git checkout <commID>  # transfer temporarily to a specific commit to check the code in that step and to come back use "git switch -"
 
 # Session 26 : Git blame
 >> git blame <filename> 
