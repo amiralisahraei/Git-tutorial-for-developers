@@ -100,8 +100,8 @@ Files in a repository go through three stages before being under version control
 >> git config --global user.email "example@gmail.com" 
 >> git config --global --list | -L # get list of gloabl configs 
 >> git config --global --edit # --edit for edit git configs
->> git config --local alias.st "git status" # add alias for git commands
->> git config --local alias.gloa "git log --oneline --all" 
+>> git config --local alias.st "status" # add alias for git commands
+>> git config --local alias.gloa "log --oneline --all" 
 
 # Session 07 : Create Repository 
 >> git init # initial repository
