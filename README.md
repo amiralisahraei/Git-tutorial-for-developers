@@ -184,7 +184,7 @@ Files in a repository go through three stages before being under version control
 >> git branch    # list of all local branchs
 >> git branch -r # list of all remote branchs
 >> git branch -a # list of all branchs (local branchs and remote branchs)
->> git branch -d branch_name
+>> git branch -d branch_name   # delete the branch
 >> git branch branch_name # create branch
 >> git switch branch_name # switch in branchs
 >> git switch -c branch_name # create and switch branch
