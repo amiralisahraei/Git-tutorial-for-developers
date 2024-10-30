@@ -155,7 +155,7 @@ Files in a repository go through three stages before being under version control
 >> git checkout 
 >> git checkout -b branch_name commID # checkout in commID and create new branch
 >> git checkout -b branch_name tag_name # checkout in tag_version and create new branch 
->> git restore
+>> git restore filename
 >> git restore index.txt # restore unstaged parts of file to head => see that with "git diff"
 >> git restore --staged index.txt # restore staging parts of file to unstaged => see that with "git diff --staged"
 >> git restore --source HEAD index.txt # restore staging part of file and unstaging part of file => see that with "git diff head"
