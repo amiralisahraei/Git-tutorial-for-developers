@@ -226,9 +226,6 @@ Files in a repository go through three stages before being under version control
 # Session 23 : Git cherry-pick
 >> git cherry-pick <commitID>
 
-# Session 24 : Git ignore
->> git ignore
-
 # Session 25 : Git tag
 >> git tag # list of tags
 >> git tag -l 'v1.4.2.1.*'
